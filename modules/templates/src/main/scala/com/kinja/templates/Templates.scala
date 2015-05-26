@@ -1,6 +1,7 @@
 package com.kinja.templates
 
 import com.kinja.macros.ToTemplate
+import com.kinja.macros.AutoRender
 
 @ToTemplate("content.html")
 case class Content(
